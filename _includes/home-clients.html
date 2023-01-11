@@ -1,0 +1,14 @@
+<section id="clients" class="clients">
+  <div class="container" data-aos="zoom-out">
+    <div class="section-header">
+      <h2>Our Customers</h2>
+    </div>
+    <div class="clients-slider swiper">
+      <div class="swiper-wrapper align-items-center">
+        {%- for customer in site.data.customers %}
+        <div class="swiper-slide"><img src="{{ customer.image | relative_url }}" class="img-fluid" alt="{{ customer.title }}"></div>
+        {%- endfor %}
+      </div>
+    </div>
+  </div>
+</section>

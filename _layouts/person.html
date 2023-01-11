@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+{%- assign person = site.data.people | where: "key", page.key | first %}
+
+{%- include breadcrumbs.html pageTitle=person.title subSectionName="Team" subSectionUrl="#team" %}
+  
+<section id="portfolio-details" class="portfolio-details">
+    <div class="container" data-aos="fade-up">
+        <div class="row gy-4">        
+            <div class="col-lg-8">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="member-img">
+                            <img src="{{ person.image | relative_url }}" class="img-fluid" alt="">
+                        </div>            
+                    </div>
+                    <div class="col-md-8">
+                        {{ content }}
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="portfolio-info">
+                    <h3>{{ person.title }}</h3>
+                    <ul>
+                        <li><strong>Role</strong>: {{ person.role[page.language] }}</li>
+                        <li><strong>Location</strong>: {{ person.location }}</li>
+                        <li><strong>Phone</strong>: {{ person.phone }}</li>
+                        <li><strong>Mobile</strong>: {{ person.mobile }}</li>
+                        <li><strong>Email</strong>: {{ person.mail }}</li>
+                        <li><strong>Secondary Email</strong>: {{ person.secondary_mail }}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
