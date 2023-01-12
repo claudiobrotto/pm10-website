@@ -63,7 +63,7 @@ defaults:
   values:
     layout: person
     language: 'en'
-    permalink: 'en/team/:basename'
+    permalink: 'en/people/:basename'
     type: 'person'
 -
   scope:
@@ -71,7 +71,7 @@ defaults:
   values:
     layout: person
     language: 'it'
-    permalink: 'it/team/:basename'
+    permalink: 'it/people/:basename'
     type: 'person'
 -
   scope:

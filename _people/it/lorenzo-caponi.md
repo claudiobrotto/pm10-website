@@ -1,5 +1,5 @@
 ---
-key: team-member-caponi
+key: people-caponi
 ---
 
 Ricercatore presso PM_TEN. 

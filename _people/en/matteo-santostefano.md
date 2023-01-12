@@ -1,5 +1,5 @@
 ---
-key: team-member-santostefano
+key: people-santostefano
 ---
 
 Software developer and IT resource. 

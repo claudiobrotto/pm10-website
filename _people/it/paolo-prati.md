@@ -1,5 +1,5 @@
 ---
-key: team-member-prati
+key: people-prati
 ---
 
 Full Professor of Applied Physics. 

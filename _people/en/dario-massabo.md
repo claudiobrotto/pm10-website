@@ -1,5 +1,5 @@
 ---
-key: team-member-massabo
+key: people-massabo
 ---
 
 Researcher at the University of Genoa, PhD student in Science and Technology of Chemistry and Materials. 

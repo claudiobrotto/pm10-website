@@ -1,4 +1,4 @@
-- key: team-member-brotto
+- key: people-brotto
   title: Paolo Brotto
   role: 
     en: ceo/cto
@@ -10,7 +10,7 @@
   secondary_mail: brotto@fisica.unige.it  
   image: media/team/brotto.jpg
   sort: 1
-- key: team-member-prati
+- key: people-prati
   title: Paolo Prati
   role: 
     en: president of the management board
@@ -22,7 +22,7 @@
   secondary_mail: prati@ge.infn.it
   image: media/team/prati.jpg
   sort: 2
-- key: team-member-mazzino
+- key: people-mazzino
   title: Andrea Mazzino
   role: 
     en: founder and member of the management board
@@ -34,7 +34,7 @@
   secondary_mail: andrea.mazzino@unige.it 
   image: media/team/mazzino.jpg
   sort: 3
-- key: team-member-massabo
+- key: people-massabo
   title: Dario Massabò
   role: 
     en: founding member
@@ -46,7 +46,7 @@
   secondary_mail: Massabo@ge.infn.it  
   image: media/team/massabo.jpg
   sort: 4
-- key: team-member-caponi
+- key: people-caponi
   title: Lorenzo Caponi
   role: 
     en: lab manager
@@ -58,7 +58,7 @@
   secondary_mail: 
   image: media/team/caponi.jpg
   sort: 5
-- key: team-member-santostefano
+- key: people-santostefano
   title: Matteo Santostefano
   role: 
     en: software development - it

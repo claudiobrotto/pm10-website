@@ -1,5 +1,5 @@
 ---
-layout: inner
+layout: downloads
 title: Downloads
 key: downloads
 permalink: /it/downloads

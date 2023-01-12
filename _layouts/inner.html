@@ -3,19 +3,7 @@ layout: default
 ---
 
 <main id="main">
-  <section class="breadcrumbs">
-    <div class="container">
-
-      <div class="d-flex justify-content-between align-items-center">
-        <h2>{{ page.title }}</h2>
-        <ol>
-          <li><a href="{{ page.language | relative_url }}">Home</a></li>
-          <li>{{ page.title }}</li>
-        </ol>
-      </div>
-
-    </div>
-  </section><!-- Breadcrumbs Section -->
+  {%- include breadcrumbs.html pageTitle=page.title %}
   <section class="inner-page">
     <div class="container" data-aos="fade-up">
       <p>

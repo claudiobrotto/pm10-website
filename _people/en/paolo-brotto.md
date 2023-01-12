@@ -1,5 +1,5 @@
 ---
-key: team-member-brotto
+key: people-brotto
 ---
 
 Research activity manager at PM_TEN. 
