@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>PM_TEN srl - {{ page.title }}</title>
+    <title>{{ page.abcd }} PM_TEN srl - {{ page.title }}</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
+    <meta name="robots" content="noindex">
     <link href="{{ 'assets/img/favicon.png' | relative_url }}" rel="icon">
     <link href="{{ 'assets/img/apple-touch-icon.png' | relative_url }}" rel="apple-touch-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,9 +27,9 @@
     <link href="{{ 'assets/css/main.css' | relative_url }}" rel="stylesheet">
   </head>
   <body>
-    {%- include header.html %}
+    {% include header.html %}
     {{ content }}
-    {%- include footer.html %}
+    {% include footer.html %}
     <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
     <div id="preloader"></div>
     <script src="{{ 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' | relative_url }}"></script>

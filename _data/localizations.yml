@@ -1,7 +1,3 @@
-title:
-  en: Multilingual Experiment
-  it: Esperimento Multilingue
-
 languages:
   en:
     value: English
@@ -10,10 +6,10 @@ languages:
     value: Italian
     slug: it
 
-back:
-  en: Back to the Top
-  it: Torna in Cima
-
-top:
-  en: Top
-  it: Cima
+labels:
+  section_title_services: 
+    en: Our Services
+    it: I Nostri Servizi
+  section_title_news: 
+    en: Latest News
+    it: Ultime Notizie

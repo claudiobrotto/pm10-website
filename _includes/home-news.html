@@ -10,7 +10,7 @@
         <div class="post-box">
           <div class="post-img"><img src="{{ news.image | relative_url }}" class="img-fluid" alt=""></div>
           <div class="meta">
-            <span class="post-date">{{ news.date }}</span>
+            <span class="post-date">{%- include date.html date=news.date language=page.language -%}</span>
           </div>
           <h3 class="post-title">{{ news.title }}</h3>
           <p>{{ news.abstract }}</p>

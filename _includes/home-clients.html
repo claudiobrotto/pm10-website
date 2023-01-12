@@ -6,7 +6,11 @@
     <div class="clients-slider swiper">
       <div class="swiper-wrapper align-items-center">
         {%- for customer in site.data.customers %}
-        <div class="swiper-slide"><img src="{{ customer.image | relative_url }}" class="img-fluid" alt="{{ customer.title }}"></div>
+        <div class="swiper-slide">
+          {%- if customer.url and customer.url != "" -%}<a href="{{ customer.url }}" target="_blank">{%- endif -%}
+          <img src="{{ customer.image | relative_url }}" class="img-fluid" alt="{{ customer.title }}">
+          {%- if customer.url -%}</a>{%- endif -%}
+          </div>
         {%- endfor %}
       </div>
     </div>
