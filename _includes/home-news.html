@@ -14,7 +14,7 @@
           </div>
           <h3 class="post-title">{{ news.title }}</h3>
           <p>{{ news.abstract }}</p>
-          <a href="{{ news.url }}" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+          <a href="{{ news.url | relative_url }}" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
         </div>
       </div>
       {%- endfor %}
