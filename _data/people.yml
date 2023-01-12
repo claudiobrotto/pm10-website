@@ -8,7 +8,7 @@
   mobile: +39 3403487799
   mail: paolo.brotto@pm10-ambiente.it
   secondary_mail: brotto@fisica.unige.it  
-  image: media/team/brotto.jpg
+  image: media/team/people-brotto.jpg
   sort: 1
 - key: people-prati
   title: Paolo Prati
@@ -20,7 +20,7 @@
   mobile: +39 3493951491
   mail: paolo.prati@pm10-ambiente.it
   secondary_mail: prati@ge.infn.it
-  image: media/team/prati.jpg
+  image: media/team/people-prati.jpg
   sort: 2
 - key: people-mazzino
   title: Andrea Mazzino
@@ -32,7 +32,7 @@
   mobile: 
   mail: andrea.mazzino@pm10-ambiente.it
   secondary_mail: andrea.mazzino@unige.it 
-  image: media/team/mazzino.jpg
+  image: media/team/people-mazzino.jpg
   sort: 3
 - key: people-massabo
   title: Dario Massabò
@@ -44,7 +44,7 @@
   mobile: +39 3286369492
   mail: Dario.Massabo@pm10-ambiente.it
   secondary_mail: Massabo@ge.infn.it  
-  image: media/team/massabo.jpg
+  image: media/team/people-massabo.jpg
   sort: 4
 - key: people-caponi
   title: Lorenzo Caponi
@@ -56,7 +56,7 @@
   mobile: 
   mail: lorenzo.caponi@pm10-ambiente.it
   secondary_mail: 
-  image: media/team/caponi.jpg
+  image: media/team/people-caponi.jpg
   sort: 5
 - key: people-santostefano
   title: Matteo Santostefano
@@ -68,5 +68,5 @@
   mobile: 
   mail: matteo.santostefano@pm10-ambiente.it
   secondary_mail: 
-  image: media/team/santostefano.jpg
+  image: media/team/people-santostefano.jpg
   sort: 6

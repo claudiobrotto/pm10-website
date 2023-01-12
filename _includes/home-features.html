@@ -18,7 +18,7 @@
           <div class="col-lg-8 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
             <h3>{{ service.title[page.language] }}</h3>
             <p class="fst-italic">{{ service.abstract[page.language] }}</p>
-            <a href="{{ servicePage.url }}" class="readmore"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            <a href="{{ servicePage.url | relative_url }}" class="readmore"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
           </div>
           <div class="col-lg-4 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
             <img src="{{ service.image | relative_url }}" alt="" class="img-fluid">

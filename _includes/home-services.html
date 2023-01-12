@@ -15,7 +15,7 @@
             <div class="icon">
               <i class="bi {{ service.icon }}"></i>
             </div>
-            <a href="{{ servicePage.url }}" class="stretched-link">
+            <a href="{{ servicePage.url  | relative_url}}" class="stretched-link">
               <h3>{{ service.title[page.language] }}</h3>
             </a>
             <p>{{ service.abstract[page.language] }}</p>
