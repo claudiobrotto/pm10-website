@@ -1,11 +1,12 @@
 ---
 key: people-brotto
+title: Paolo Brotto
 ---
 
-Research activity manager at PM_TEN. 
+Responsabile attività di ricerca presso PM_TEN. 
 
-PhD in Materials Science, master degree in Physics. 
+Dottore di Ricerca in Scienze dei Materiali, Dottore in Fisica. 
 
-Expertise: environmental modeling, numerical codes for pollutant atmospheric dispersion models. Project management. team coordination, administration. 
+Competenze tecniche: modellistica e monitoraggio ambientale, codici numerici di simulazione della dispersione in atmosfera, Project Management, gestione e coordinamento gruppo di lavoro, amministrazione. 
 
-Certified faciliator Lego Serious Play.
+Facilitatore certificato Lego Serious Play.

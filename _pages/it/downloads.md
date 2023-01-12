@@ -1,6 +1,6 @@
 ---
 layout: downloads
-title: Downloads
+title: Download
 key: downloads
 permalink: /it/downloads
 ---

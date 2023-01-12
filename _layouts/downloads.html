@@ -1,9 +1,8 @@
 ---
 layout: default
 ---
-
-{%- include breadcrumbs.html pageTitle=page.title subSectionName="Resources" subSectionUrl="#resources" %}
-
+{%- assign subSectionName = site.data.labels.section_title_resources[page.language] -%}
+{%- include breadcrumbs.html pageTitle=page.title subSectionName=subSectionName subSectionUrl="#resources" %}
 <section class="inner-page">
     <div class="container">
         {%- for file in site.data.downloads %} 
@@ -11,7 +10,7 @@ layout: default
         <p>
             {{ file.description[page.language] }}
             <br>
-            <a href="{{ file.url |  relative_url }}" class="readmore"><span>Download</span><i class="bi bi-arrow-right"></i></a>
+            <a href="{{ file.url |  relative_url }}" class="readmore"><span>{{ site.data.labels.download[page.language] }}</span><i class="bi bi-arrow-right"></i></a>
         </p>
         {% endfor %}
     </div>

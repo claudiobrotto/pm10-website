@@ -1,5 +1,6 @@
 ---
 key: people-prati
+title: Paolo Prati
 ---
 
 Full Professor of Applied Physics. 

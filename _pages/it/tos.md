@@ -1,6 +1,6 @@
 ---
 layout: inner
-title: Terms of Service
+title: Termini di Servizio
 key: tos
 permalink: /it/terms-of-service
 ---

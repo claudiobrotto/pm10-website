@@ -1,7 +1,7 @@
 <section id="recent-blog-posts" class="recent-blog-posts">
   <div id="news" class="container" data-aos="fade-up">
     <div class="section-header">
-      <h2>Latest News</h2>
+      <h2>{{ site.data.labels.section_title_news[page.language] }}</h2>
     </div>
     <div class="row">
       {%- assign newsPages = site.pages | where: "type", "news" | where: "language", page.language | sort: "date" | reverse %}
@@ -14,7 +14,7 @@
           </div>
           <h3 class="post-title">{{ news.title }}</h3>
           <p>{{ news.abstract }}</p>
-          <a href="{{ news.url | relative_url }}" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+          <a href="{{ news.url | relative_url }}" class="readmore stretched-link"><span>{{ site.data.labels.read_more[page.language] }}</span><i class="bi bi-arrow-right"></i></a>
         </div>
       </div>
       {%- endfor %}

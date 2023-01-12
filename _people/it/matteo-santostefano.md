@@ -1,9 +1,10 @@
 ---
 key: people-santostefano
+title: Matteo Santostefano
 ---
 
-Software developer and IT resource. 
+Sviluppatore software e risorsa IT. 
 
-Master's degree in Physics.
+Laurea Magistrale in Fisica.
 
-Expert in programming (Phyton, Javascript, C ++ and C #), machine learnign algorithms and neural networks.
+Esperto nella programmazione (Phyton,Javascript, C++ e C# ), algoritmi di machine learnign e reti neurali.

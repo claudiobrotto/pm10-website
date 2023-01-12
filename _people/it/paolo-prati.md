@@ -1,9 +1,10 @@
 ---
 key: people-prati
+title: Paolo Prati
 ---
 
-Full Professor of Applied Physics. 
+Professore Ordinario di Fisica Applicata. 
 
-Expertise: Analytical techniques for the characterization of atmospheric particulate matter and its sources. Ion beam Analysis. Environmental radioactivity and radio-protection. Radiation Safety Officer. 
+Competenze: tecniche di misura ed analisi per la caratterizzazione del particolato atmosferico e delle sue sorgenti; analisi composizionali non distruttive con fasci di ioni; radioattività ambientale e radioprotezione. 
 
-Former member of the Directive board of the Italian Aerosol Society.
+Esperto Qualificato di III grado, già Membro del Consiglio Direttivo della Società Italiana di Aerosol.

@@ -1,7 +1,8 @@
 ---
 layout: default
 ---
-{%- include breadcrumbs.html pageTitle=page.title subSectionName="Resources" subSectionUrl="#resources" %}
+{%- assign subSectionName = site.data.labels.section_title_resources[page.language] -%}
+{%- include breadcrumbs.html pageTitle=page.title subSectionName=subSectionName subSectionUrl="#resources" %}
 <section id="portfolio" class="portfolio" data-aos="fade-up">
   <div class="container">        
     <div class="section-header">

@@ -1,7 +1,7 @@
 <section id="services" class="services">
   <div class="container" data-aos="fade-up">
     <div class="section-header">
-      <h2>Our Services</h2>
+      <h2>{{ site.data.labels.section_title_services[page.language] }}</h2>
     </div>
     <div class="row gy-5">
       {%- for service in site.data.services | sort: 'sort' %}

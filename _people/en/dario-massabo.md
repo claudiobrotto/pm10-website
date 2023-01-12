@@ -1,5 +1,6 @@
 ---
 key: people-massabo
+title: Dario Massabò
 ---
 
 Researcher at the University of Genoa, PhD student in Science and Technology of Chemistry and Materials. 

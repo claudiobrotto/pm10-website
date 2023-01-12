@@ -1,5 +1,6 @@
 ---
 key: people-brotto
+title: Paolo Brotto
 ---
 
 Research activity manager at PM_TEN. 

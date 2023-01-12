@@ -1,10 +1,7 @@
-# url:
-# baseurl: 
-# author: 
-# description:
 title: PM_TEN
-domain: int3.it       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-url: https://int3.it  # the base hostname and protocol for your site, e.g. http://example.com
+description: PM_TEN web site
+domain: int3.it
+url: https://int3.it
 baseurl: /pm10-website
 repository: https://github.com/claudiobrotto/pm10-website
 
@@ -30,8 +27,10 @@ exclude:
   - .gitignore
   - .jekyll-cache/
 
+# Process these folders
 include: ["_pages", "_services", "_people", "_news"]
 
+# Apply defaults based on path
 defaults:
 -
   scope:

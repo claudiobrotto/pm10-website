@@ -5,11 +5,3 @@ languages:
   it:
     value: Italian
     slug: it
-
-labels:
-  section_title_services: 
-    en: Our Services
-    it: I Nostri Servizi
-  section_title_news: 
-    en: Latest News
-    it: Ultime Notizie

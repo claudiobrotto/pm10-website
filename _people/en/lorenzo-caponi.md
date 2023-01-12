@@ -1,5 +1,6 @@
 ---
 key: people-caponi
+title: Lorenzo Caponi
 ---
 
 Ricercatore presso PM_TEN. 
