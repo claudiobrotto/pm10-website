@@ -74,7 +74,7 @@ defaults:
   values:
     layout: person
     language: 'it'
-    permalink: 'it/people/:basename'
+    permalink: 'it/persone/:basename'
     type: 'person'
 -
   scope:

@@ -52,3 +52,6 @@ mobile:
 secondary_email:
   en: Alternate Email
   it: Email Alternativa
+download:
+  en: Download
+  it: Scarica
