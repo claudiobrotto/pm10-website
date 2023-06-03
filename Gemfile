@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
+ruby RUBY_VERSION
+
+gem "jekyll", "3.9.3"
 gem 'rouge'
 
 group :jekyll_plugins do
@@ -16,3 +18,5 @@ group :development do
   gem 'html-proofer'
   gem 'dotenv'
 end
+
+gem "webrick", "~> 1.8"
